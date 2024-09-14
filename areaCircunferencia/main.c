@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 #define pi 3.1416
 
 
@@ -11,7 +12,7 @@ int main(){
 		exit(1);
 	}
 
-	printf("%.2f",(raio*raio)*pi);
+	printf("%.2f",pow(raio,2)*pi);
 
 	return 0;
 }
