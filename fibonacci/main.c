@@ -1,19 +1,23 @@
 #include <stdio.h>
 
+
 int fib(int n){
-	int n0=1;
-	int n1=1;
-
-	while(){
-	
+	if(n==0){
+		return 1;
+	}else if(n==1){
+		return 1;
+	}else{
+		return fib(n-1)+fib(n-2);
 	}
-
 }
 
 
 int main(void){
-	int n=1;
 
+	int n;
 	scanf("%d",&n);
 
+	printf("%d",fib(n));
+	
+	return 0;
 }
