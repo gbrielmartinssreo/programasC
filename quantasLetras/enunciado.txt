@@ -1,0 +1,11 @@
+Faça um programa para ler uma string SS (sem espaços) e uma letra CC. Seu programa deve imprimir a quantidade de vezes que a letra CC aparece em SS.
+Entrada
+
+A entrada consiste de duas linhas. A primeira linha contém uma string SS. A segunda linha contém uma letra CC.
+Saída
+
+A saída consiste de uma única linha contendo um inteiro correspondente a quantidade de vezes que a letra CC aparece na string SS
+Restrições
+
+    1≤∣S∣≤50
+    A string contém apenas letras minúsculas do alfabeto
